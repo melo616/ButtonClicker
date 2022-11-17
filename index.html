@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" name="searchbar" placeholder="Search...">
+        <button class="log-in-out button-shadow" onclick="turnOff(this)">Login</button>
+    </div>
+    <div class="container">
+        <div class="column-1">
+            <div class="definition-box box-border">
+                <div class="definition-left">
+                    <h3 class="vertical-space">ninja</h3>
+                    <h4 class="vertical-space italic">noun</h4>
+                    <h5 class="vertical-space">Plural: <span class="italic">ninjas</span></h5>
+                    <button class="like-button vertical-space button-shadow" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <p class="vertical-space">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <div class="definition-box box-border">
+                <div class="definition-left">
+                    <h3 class="vertical-space">ninja</h3>
+                    <h4 class="vertical-space italic">noun</h4>
+                    <h5 class="vertical-space">Plural: <span class="italic">ninjas</span></h5>
+                    <button class="like-button vertical-space button-shadow" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <p class="vertical-space">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+        <div class="column-2 box-border">
+            <h4>Dojonary is defined by YOU</h4>
+            <button class="add-definition vertical-space button-shadow" onclick="remove(this)">Add Definition</button>
+        </div>
+    </div>
+<script src="script.js">
+</script>
+</body>
+</html>

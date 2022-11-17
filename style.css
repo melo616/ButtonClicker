@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.column-1 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.column-2 {
+    flex: 1;
+    padding: 10px;
+    height: 120px;
+    width: 150px;
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.definition-box {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.definition-left {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.log-in-out {
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.like-button {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.add-definition {
+    background-color: green;
+    padding: 5px;
+}
+
+.button-shadow {
+    box-shadow: 2px 2px 2px black;
+}
+
+.vertical-space {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* .center-format {
+    align-items: center;
+} */
+
+.box-border {
+    border: 2px solid black;
+}
+
+.italic {
+    font-style: italic;
+}
